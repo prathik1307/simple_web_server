@@ -40,7 +40,7 @@ with socketserver.TCPServer(("", PORT), MyHandler) as httpd:
 
 # OUTPUT:
 
-
+![alt text](image.png)
 
 # RESULT:
 The program for implementing simple webserver is executed successfully.
