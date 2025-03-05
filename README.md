@@ -21,7 +21,7 @@ Serving the HTML pages.
 Testing the webserver.
 
 # PROGRAM:
-
+```
 import http.server
 import socketserver
 
@@ -37,7 +37,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
 with socketserver.TCPServer(("", PORT), MyHandler) as httpd:
     print(f"Serving at port {PORT}")
     httpd.serve_forever()
-
+```
 # OUTPUT:
 
 ![alt text](image.png)
